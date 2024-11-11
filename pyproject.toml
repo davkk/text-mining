@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "text_mining"
+version = "0.1.0"
+description = ""
+authors = ["Dawid Karpiński <dawid.karp@int.pl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+nltk = "^3.9.1"
+scikit-learn = "^1.5.2"
+seaborn = "^0.13.2"
+numpy = "^2.1.2"
+matplotlib = "^3.9.2"
+jupyterlab = "^4.2.5"
+jupyterlab-vim = "^4.1.4"
+jupytext = "^1.16.4"
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
+
+[tool.jupytext]
+formats = "ipynb,py:percent"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
