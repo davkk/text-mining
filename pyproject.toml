@@ -10,11 +10,17 @@ python = "^3.12"
 nltk = "^3.9.1"
 scikit-learn = "^1.5.2"
 seaborn = "^0.13.2"
-numpy = "^2.1.2"
+numpy = "^1.23"
 matplotlib = "^3.9.2"
 jupyterlab = "^4.2.5"
 jupyterlab-vim = "^4.1.4"
 jupytext = "^1.16.4"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+tqdm = "^4.67.0"
+tmtoolkit = {extras = ["recommended"], version = "^0.12.0"}
+statsmodels = "^0.14.4"
+networkx = "^3.4.2"
 
 [tool.ruff.lint]
 select = [
