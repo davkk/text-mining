@@ -1578,6 +1578,31 @@ build = ["build", "twine"]
 test = ["pytest", "pytest-cov"]
 
 [[package]]
+name = "lda"
+version = "3.0.2"
+description = "Topic modeling with latent Dirichlet allocation"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "lda-3.0.2-cp310-cp310-macosx_14_0_arm64.whl", hash = "sha256:3a6dfc8d3aede1f4d8debde89dca0d871066b756bb43bc6b6a8062ca81555ec2"},
+    {file = "lda-3.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:69783191736d1b6253edc84d0c2fa2f4189ef04c18680201c0d77866cad38f62"},
+    {file = "lda-3.0.2-cp310-cp310-musllinux_1_2_x86_64.whl", hash = "sha256:a92c6862476a640014fd7f891a579b446c41b4f3af68861a8f8179990ffa2c85"},
+    {file = "lda-3.0.2-cp310-cp310-win_amd64.whl", hash = "sha256:61d7b27aa3759c113e8a4deedfdc86a3fcbbed2cae64fe96c68e3eaadcdb78e8"},
+    {file = "lda-3.0.2-cp311-cp311-macosx_14_0_arm64.whl", hash = "sha256:d8b4773bed0b1428230ead6bd7ec223861f4189971a28e2fe7c9501452810f27"},
+    {file = "lda-3.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5092577d2213890f0e1df4e6db02cc50955de97ca94bd57b3405dd53e21c1ab3"},
+    {file = "lda-3.0.2-cp311-cp311-musllinux_1_2_x86_64.whl", hash = "sha256:68b95a93cc6c5d7c5c5d391a6e33e2dd97d38093380671d831976e2cf762c0a8"},
+    {file = "lda-3.0.2-cp311-cp311-win_amd64.whl", hash = "sha256:bb41865290b5f1f19b065d58fa4005f08e71947a01dde7f598f975cba3dd2294"},
+    {file = "lda-3.0.2-cp312-cp312-macosx_14_0_arm64.whl", hash = "sha256:4012f7e834ecb7e0be8a046b3c42c149c3124f27099ba97b08b0feea4a0ab751"},
+    {file = "lda-3.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5b2f40fdbf221192c48e1628e0a3f815247e64d27daf8cee5f7b3106d70ce0a7"},
+    {file = "lda-3.0.2-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:20028b96fce4b336b390d9a208916e4ab86588724e99a96b9c29b748fa6753b9"},
+    {file = "lda-3.0.2-cp312-cp312-win_amd64.whl", hash = "sha256:178b07b5d37505d4d63fe57b1bcd7208254232dd720b5d9ba0054f9f55f55488"},
+    {file = "lda-3.0.2.tar.gz", hash = "sha256:76fc6fbb066b6d1ec0360a1541c5e1c8b69a728666525e72644c4d5332fc778a"},
+]
+
+[package.dependencies]
+numpy = ">=1.13.0"
+
+[[package]]
 name = "loky"
 version = "3.4.1"
 description = "A robust implementation of concurrent.futures.ProcessPoolExecutor"
@@ -4294,4 +4319,4 @@ test = ["pytest", "pytest-cov"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "5c527112abfb23ef030acef655485234639600ab2f95d75c4a22621f183ce547"
+content-hash = "0cae4b75176716b2dae9583c1cf4096fe7abf8e10f1e5a5ec141eda4a9a58c55"
